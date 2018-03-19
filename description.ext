@@ -1,4 +1,6 @@
 #define MODULES_DIRECTORY node_modules
+#include "node_modules\grad_randomizeMap\cfgBuildingList.hpp"
+#include "node_modules\grad-leaveNotes\grad_leaveNotes.hpp"
 
 class Header
 {
@@ -14,14 +16,6 @@ respawnOnStart = -1;
 respawnDialog = 0;
 disabledAI = 0;
 allowFunctionsRecompile = 1;
-
-/*enableTargetDebug = 1;*/
-
-//mcdiod, nomisum
-enableDebugConsole[] = {
-	"76561198044320063",
-	"76561197961080101"
-};
 
 #include "USER\missionInfo.hpp"
 #include "USER\loadouts.hpp"
@@ -65,6 +59,8 @@ class CfgFunctions
     #include "node_modules\grad-customGear\cfgFunctions.hpp"
 	#include "node_modules\grad-civs\cfgFunctions.hpp"
 	#include "node_modules\grad-fortifications\cfgFunctions.hpp"
+	#include "node_modules\grad_randomizeMap\cfgFunctions.hpp"
+	#include "node_modules\grad-leaveNotes\cfgFunctions.hpp"
 
 	#include "USER\userFunctions.hpp"
 };
@@ -112,6 +108,7 @@ class Params {
 //SOUNDS =======================================================================
 class CfgSounds {
 	#include "USER\userSounds.hpp"
+	#include "node_modules\grad-leaveNotes\cfgSounds.hpp"
 	class murmur
 	{
 		name = "murmur"; // Name for mission editor
