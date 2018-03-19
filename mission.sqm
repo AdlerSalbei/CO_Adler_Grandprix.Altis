@@ -8,7 +8,7 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=1666;
+		nextID=1671;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=218;
+		nextID=226;
 	};
 	class Camera
 	{
-		pos[]={3372.5818,414.55231,22661.547};
-		dir[]={0.18509015,-0.71950477,-0.66938788};
-		up[]={0.19176032,0.69445533,-0.69351238};
-		aside[]={-0.96384418,-6.9546513e-007,-0.26650932};
+		pos[]={3132.5806,101.12532,22120.395};
+		dir[]={0.88943452,-0.40239546,-0.21701406};
+		up[]={0.39096916,0.91544521,-0.09539336};
+		aside[]={-0.23704997,1.9965228e-008,-0.97155851};
 	};
 };
 binarizationWanted=0;
@@ -3355,7 +3355,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=130;
+		items=131;
 		class Item0
 		{
 			dataType="Layer";
@@ -5160,8 +5160,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={3502.5691,98.760025,22101.658};
-				angles[]={0.34906584,3.729018,6.232553};
+				position[]={3652.9385,157.65494,21943.178};
+				angles[]={6.2126365,4.8714623,6.1690178};
 			};
 			side="Civilian";
 			flags=6;
@@ -5173,7 +5173,7 @@ class Mission
 			};
 			id=1546;
 			type="O_Truck_03_device_F";
-			atlOffset=-0.015007019;
+			atlOffset=-0.41427612;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -5210,8 +5210,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={3502.302,96.757645,22100.98};
-						angles[]={0.34906584,3.729018,6.232553};
+						position[]={3652.8052,155.83746,21942.092};
+						angles[]={6.2126365,4.8714623,6.1690178};
 					};
 					side="Civilian";
 					flags=7;
@@ -5223,7 +5223,6 @@ class Mission
 					};
 					id=1548;
 					type="RDS_Doctor";
-					atlOffset=-0.015007019;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -5289,15 +5288,12 @@ class Mission
 				class Item1
 				{
 					dataType="Waypoint";
-					position[]={3447.052,120.51165,22036.871};
+					position[]={3559.6499,161.08122,21963.113};
 					speed="FULL";
 					visible=0;
 					class Effects
 					{
 					};
-					timeoutMin=30;
-					timeoutMid=40;
-					timeoutMax=45;
 					showWP="NEVER";
 					id=1549;
 					type="Move";
@@ -5305,38 +5301,36 @@ class Mission
 				class Item2
 				{
 					dataType="Waypoint";
-					position[]={3273.595,69.463951,22125.486};
+					position[]={3329.7278,85.66761,22096.883};
 					class Effects
 					{
 					};
 					showWP="NEVER";
-					id=1551;
+					id=1666;
 					type="Move";
-					atlOffset=-1.5258789e-005;
 				};
 				class Item3
 				{
 					dataType="Waypoint";
-					position[]={3207.0383,51.282951,22109.559};
+					position[]={3210.1414,52.38361,22115.791};
 					class Effects
 					{
 					};
 					showWP="NEVER";
-					id=1552;
+					id=1669;
 					type="Move";
-					atlOffset=-0.00024795532;
 				};
 				class Item4
 				{
 					dataType="Waypoint";
-					position[]={3213.5562,52.06245,22094.705};
+					position[]={3204.636,48.32386,22087.123};
 					class Effects
 					{
 					};
 					showWP="NEVER";
-					id=1661;
+					id=1670;
 					type="Move";
-					atlOffset=-0.00012588501;
+					atlOffset=-0.00072479248;
 				};
 			};
 			class Attributes
@@ -5364,7 +5358,7 @@ class Mission
 				};
 			};
 			id=1547;
-			atlOffset=-0.015007019;
+			atlOffset=-0.41427612;
 		};
 		class Item33
 		{
@@ -7517,7 +7511,7 @@ class Mission
 					};
 					id=1656;
 					type="B_officer_F";
-					atlOffset=0.024002075;
+					atlOffset=0.005065918;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -7585,7 +7579,7 @@ class Mission
 			{
 			};
 			id=1655;
-			atlOffset=0.024002075;
+			atlOffset=0.005065918;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -7831,7 +7825,39 @@ class Mission
 			};
 			id=1665;
 			type="CUP_B_TowingTractor_USMC";
-			atlOffset=18.342072;
+			atlOffset=18.323135;
+		};
+		class Item130
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2613.3411,8.5615025,22135.607};
+						angles[]={0,1.9956893,0};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						isPlayer=1;
+					};
+					id=1668;
+					type="B_Soldier_A_F";
+					atlOffset=2.1934509e-005;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=1667;
+			atlOffset=2.1934509e-005;
 		};
 	};
 	class Connections
