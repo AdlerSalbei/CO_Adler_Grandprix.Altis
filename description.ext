@@ -145,7 +145,7 @@ class CfgSounds {
 	class Morsen
     {
       name="Morsen";
-      sound[]={data\Sound\morse.ogg, db+10, 1};
+      sound[]={data\Sound\morse.ogg, db-5, 1};
       titles[]={};
     };
 

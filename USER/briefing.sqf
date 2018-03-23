@@ -19,5 +19,4 @@ _durchfuehrung =
 
 //Einsatzunterstützung - Informationen über unterstützende Einheiten (Luft, Artillerie, etc.) und Nachschub / Versorgungsmöglichkeiten
 _einsatzunterstuetzung =
-<img image='data\morse_alphabet.paa' width='217' height='312'/>
-"";
+"<img image='data\morse_alphabet.paa' width='312' height='217'/>";
