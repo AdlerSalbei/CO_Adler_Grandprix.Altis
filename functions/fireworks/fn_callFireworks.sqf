@@ -24,7 +24,8 @@ CREDITS go to j1987, MrAuralization, soundscalpel.com and Quistard of freesound.
 
 if (isServer || isDedicated) then {
 
-	params ["_firing_position", "_type", 	"_color"];
+	params ["_firing_position", "_type", "_color"];
+	systemChat format ["Pos: %1, Type: %2, Color: %3", _firing_position, _type, _color];
 
 	_explosion_power = 50; // 30-70 seems reasonable
 	_glitter_count = 50; // 30 is poor, 50 is ok, 100 might be overkill
@@ -167,7 +168,7 @@ if (isServer || isDedicated) then {
 
 	};
 
-
+	systemChat "Calling Firewörk";
 	// send all precalculated stuff to clients
 	[
 	_firing_position,
@@ -187,5 +188,5 @@ if (isServer || isDedicated) then {
 	_singleFizz,
 	_groupFizz,
 	_randomSleepShort
-	]remoteExecCall ["GRAD_fireworks_fnc_fireworks", -2, true];
+	]remoteExecCall ["GRAD_fireworks_fnc_fireworks", 0, true];
 };

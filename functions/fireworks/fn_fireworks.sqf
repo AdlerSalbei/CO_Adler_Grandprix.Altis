@@ -1,11 +1,11 @@
 if (isDedicated) exitWith {};
 params [
-	"_firing_position", 													// where rocket starts
+	"_firing_position", 														// where rocket starts
 	"_type1",
-	"_initial_velocity", 													// rocket initial speed
-	"_explosion_power", 													// how big the explosion radius/force
-	"_glitter_count", 														// how many fragments
-	"_color", 																// color
+	"_initial_velocity", 														// rocket initial speed
+	"_explosion_power", 														// how big the explosion radius/force
+	"_glitter_count", 															// how many fragments
+	"_color", 																	// color
 	"_explosion_fragments_array",
 	"_explosion_subfragments_array",
 	"_randomSleep",
@@ -19,8 +19,8 @@ params [
 	"_randomSleepShort"
 ];
 
-//hintSilent format ["%1,%2,%3,%4,%5,%6,%7",_firing_position,_type1,_initial_velocity,_explosion_power,_glitter_count,_color,_explosion_fragments_array,_explosion_subfragments_array];
-//hintSilent format ["%1",_explosion_fragments_array];
+systemchat format ["%1,%2,%3,%4,%5,%6,%7",_firing_position,_type1,_initial_velocity,_explosion_power,_glitter_count,_color,_explosion_fragments_array,_explosion_subfragments_array];
+systemchat format ["%1",_explosion_fragments_array];
 
 _nul1 ="CMflare_Chaff_Ammo" createVehicleLocal [_firing_position select 0,_firing_position select 1, 0];
 _nul1 setVelocity _initial_velocity;

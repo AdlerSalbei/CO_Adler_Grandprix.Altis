@@ -3,6 +3,7 @@ class GRAD_common {
         class addJipToZeus {};
         class closeDoors {};
         class playMorse {};
+        class popDown {};
         class popUp {};
         class restrictedArsenal {};
     };
