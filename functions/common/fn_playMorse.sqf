@@ -1,4 +1,6 @@
 params ["_obj"];
+if !(isServer) exitWith {};
+
 _soundPath = [(str missionConfigFile), 0, -15] call BIS_fnc_trimString;
 _soundToPlay = _soundPath + "data\Sound\morse.ogg";
 

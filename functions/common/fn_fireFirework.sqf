@@ -17,3 +17,8 @@ sleep 4;
 sleep 7;
 [getPos firework_launcher_02, "rain","green"]   remoteExec ["GRAD_fireworks_fnc_prepareFireworks", 2];
 [getPos firework_launcher_04, "rain","white"]   remoteExec ["GRAD_fireworks_fnc_prepareFireworks", 2];
+bomb_truck_01 hideObjectGlobal false;
+bomb_truck_01 allowDamage true;
+driver_truck_01 hideObjectGlobal false;
+driver_truck_01 allowDamage true;
+bomb_truck_01 setFuel 1;
