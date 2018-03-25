@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=338;
+		nextID=346;
 	};
 	class Camera
 	{
-		pos[]={4569.1367,306.18533,21455.043};
-		dir[]={-0.79781973,-0.55461985,-0.23672612};
-		up[]={-0.53176939,0.8320505,-0.15778324};
-		aside[]={-0.28447714,-1.7013517e-006,0.95876497};
+		pos[]={19246.139,4238.5586,5463.3584};
+		dir[]={-0.30750239,-0.91822201,0.24962924};
+		up[]={-0.71288973,0.39606908,0.57872158};
+		aside[]={0.63026565,6.4587221e-007,0.77638257};
 	};
 };
 binarizationWanted=0;
@@ -11219,7 +11219,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={24546.707,-185.96001,35849.68};
-			angle=3.708591;
+			angle=3.7085905;
 			class Attributes
 			{
 				condition="call{this}";
@@ -11277,7 +11277,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={4621.5576,287.96597,21455.551};
-			angle=0.38867956;
+			angle=0.3886795;
 			class Attributes
 			{
 				condition="call{this}";
@@ -14664,6 +14664,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
+				init="call{this animate [""Terc"",1];}";
 				name="target_02_73";
 			};
 			id=2210;
@@ -14682,6 +14683,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				init="call{this animate [""Terc"",1];}";
 				name="target_02_72";
 			};
 			id=2211;
@@ -14700,6 +14702,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				init="call{this animate [""Terc"",1];}";
 				name="target_02_71";
 			};
 			id=2212;
@@ -14717,6 +14720,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				init="call{this animate [""Terc"",1];}";
 				name="target_02_67";
 			};
 			id=2213;
@@ -14734,6 +14738,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				init="call{this animate [""Terc"",1];}";
 				name="target_02_68";
 			};
 			id=2214;
@@ -14751,6 +14756,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
+				init="call{this animate [""Terc"",1];}";
 				name="target_02_69";
 			};
 			id=2215;
@@ -14768,6 +14774,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
+				init="call{this animate [""Terc"",1];}";
 				name="target_02_70";
 			};
 			id=2216;
@@ -14819,6 +14826,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				init="call{this animate [""Terc"",1];}";
 				name="target_02_01";
 			};
 			id=2219;
@@ -14837,6 +14845,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				init="call{this animate [""Terc"",1];}";
 				name="target_02_02";
 			};
 			id=2220;
@@ -14855,6 +14864,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				init="call{this animate [""Terc"",1];}";
 				name="civ_01";
 			};
 			id=2221;
@@ -14873,6 +14883,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				init="call{this animate [""Terc"",1];}";
 				name="target_02_03";
 			};
 			id=2222;
@@ -14890,6 +14901,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
+				init="call{this animate [""Terc"",1];}";
 				name="target_02_05";
 			};
 			id=2223;
@@ -14907,6 +14919,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
+				init="call{this animate [""Terc"",1];}";
 				name="target_02_04";
 			};
 			id=2224;
@@ -14925,6 +14938,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				init="call{this animate [""Terc"",1];}";
 				name="target_02_06";
 			};
 			id=2225;
@@ -14942,6 +14956,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				init="call{this animate [""Terc"",1];}";
 				name="target_02_08";
 			};
 			id=2226;
@@ -14959,6 +14974,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				init="call{this animate [""Terc"",1];}";
 				name="target_02_07";
 			};
 			id=2227;
@@ -14975,6 +14991,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
+				init="call{this animate [""Terc"",1];}";
 				name="target_02_09";
 			};
 			id=2228;
@@ -14992,6 +15009,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
+				init="call{this animate [""Terc"",1];}";
 				name="target_02_10";
 			};
 			id=2229;
@@ -15010,6 +15028,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				init="call{this animate [""Terc"",1];}";
 				name="target_02_14";
 			};
 			id=2230;
@@ -15027,6 +15046,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
+				init="call{this animate [""Terc"",1];}";
 				name="target_02_11";
 			};
 			id=2231;
@@ -15045,6 +15065,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				init="call{this animate [""Terc"",1];}";
 				name="target_02_12";
 			};
 			id=2232;
@@ -15062,6 +15083,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
+				init="call{this animate [""Terc"",1];}";
 				name="target_02_13";
 			};
 			id=2233;
@@ -15080,6 +15102,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				init="call{this animate [""Terc"",1];}";
 				name="target_02_15";
 			};
 			id=2234;
@@ -15098,6 +15121,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				init="call{this animate [""Terc"",1];}";
 				name="target_02_16";
 			};
 			id=2235;
@@ -15116,6 +15140,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				init="call{this animate [""Terc"",1];}";
 				name="target_02_17";
 			};
 			id=2236;
@@ -15133,6 +15158,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				init="call{this animate [""Terc"",1];}";
 				name="civ_02";
 			};
 			id=2237;
@@ -15151,6 +15177,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				init="call{this animate [""Terc"",1];}";
 				name="target_02_18";
 			};
 			id=2238;
@@ -15167,6 +15194,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
+				init="call{this animate [""Terc"",1];}";
 				name="target_02_19";
 			};
 			id=2239;
@@ -15185,6 +15213,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				init="call{this animate [""Terc"",1];}";
 				name="target_02_20";
 			};
 			id=2240;
@@ -15202,6 +15231,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
+				init="call{this animate [""Terc"",1];}";
 				name="target_02_21";
 			};
 			id=2241;
@@ -15220,6 +15250,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				init="call{this animate [""Terc"",1];}";
 				name="civ_03";
 			};
 			id=2242;
@@ -15238,6 +15269,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				init="call{this animate [""Terc"",1];}";
 				name="target_02_22";
 			};
 			id=2243;
@@ -15304,6 +15336,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
+				init="call{this animate [""Terc"",1];}";
 				name="target_02_26";
 			};
 			id=2247;
@@ -15322,6 +15355,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				init="call{this animate [""Terc"",1];}";
 				name="target_02_25";
 			};
 			id=2248;
@@ -15340,6 +15374,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				init="call{this animate [""Terc"",1];}";
 				name="civ_05";
 			};
 			id=2249;
@@ -15358,6 +15393,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				init="call{this animate [""Terc"",1];}";
 				name="target_02_27";
 			};
 			id=2250;
@@ -15376,6 +15412,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				init="call{this animate [""Terc"",1];}";
 				name="target_02_29";
 			};
 			id=2251;
@@ -15393,6 +15430,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
+				init="call{this animate [""Terc"",1];}";
 				name="target_02_28";
 			};
 			id=2252;
@@ -15411,6 +15449,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				init="call{this animate [""Terc"",1];}";
 				name="civ_04";
 			};
 			id=2253;
@@ -15428,6 +15467,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				init="call{this animate [""Terc"",1];}";
 				name="target_02_24";
 			};
 			id=2254;
@@ -15445,6 +15485,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				init="call{this animate [""Terc"",1];}";
 				name="target_02_23";
 			};
 			id=2255;
@@ -15480,6 +15521,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				init="call{this animate [""Terc"",1];}";
 				name="target_02_30";
 			};
 			id=2257;
@@ -15496,6 +15538,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
+				init="call{this animate [""Terc"",1];}";
 				name="target_02_31";
 			};
 			id=2258;
@@ -15514,6 +15557,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				init="call{this animate [""Terc"",1];}";
 				name="target_02_32";
 			};
 			id=2259;
@@ -15532,6 +15576,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				init="call{this animate [""Terc"",1];}";
 				name="target_02_33";
 			};
 			id=2260;
@@ -15549,6 +15594,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
+				init="call{this animate [""Terc"",1];}";
 				name="target_02_34";
 			};
 			id=2261;
@@ -15601,6 +15647,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				init="call{this animate [""Terc"",1];}";
 				name="target_02_35";
 			};
 			id=2264;
@@ -15619,6 +15666,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				init="call{this animate [""Terc"",1];}";
 				name="target_02_36";
 			};
 			id=2265;
@@ -15637,6 +15685,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				init="call{this animate [""Terc"",1];}";
 				name="target_02_38";
 			};
 			id=2266;
@@ -15654,6 +15703,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				init="call{this animate [""Terc"",1];}";
 				name="target_02_37";
 			};
 			id=2267;
@@ -15671,6 +15721,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
+				init="call{this animate [""Terc"",1];}";
 				name="target_02_39";
 			};
 			id=2268;
@@ -15723,6 +15774,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				init="call{this animate [""Terc"",1];}";
 				name="target_02_41";
 			};
 			id=2271;
@@ -15741,6 +15793,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				init="call{this animate [""Terc"",1];}";
 				name="target_02_40";
 			};
 			id=2272;
@@ -15759,6 +15812,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				init="call{this animate [""Terc"",1];}";
 				name="civ_06";
 			};
 			id=2273;
@@ -15777,6 +15831,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				init="call{this animate [""Terc"",1];}";
 				name="target_02_42";
 			};
 			id=2274;
@@ -15794,6 +15849,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				init="call{this animate [""Terc"",1];}";
 				name="target_02_43";
 			};
 			id=2275;
@@ -15811,7 +15867,8 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				name="target_02_44";
+				init="call{this animate [""Terc"",1];}";
+				name="civ_12";
 			};
 			id=2276;
 			type="TargetP_Civ_F";
@@ -15829,6 +15886,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				init="call{this animate [""Terc"",1];}";
 				name="target_02_47";
 			};
 			id=2277;
@@ -15846,6 +15904,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
+				init="call{this animate [""Terc"",1];}";
 				name="target_02_45";
 			};
 			id=2278;
@@ -15864,6 +15923,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				init="call{this animate [""Terc"",1];}";
 				name="civ_08";
 			};
 			id=2279;
@@ -15882,6 +15942,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				init="call{this animate [""Terc"",1];}";
 				name="civ_07";
 			};
 			id=2280;
@@ -15899,6 +15960,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
+				init="call{this animate [""Terc"",1];}";
 				name="target_02_46";
 			};
 			id=2281;
@@ -15982,6 +16044,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
+				init="call{this animate [""Terc"",1];}";
 				name="civ_09";
 			};
 			id=2286;
@@ -16000,6 +16063,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				init="call{this animate [""Terc"",1];}";
 				name="target_02_48";
 			};
 			id=2287;
@@ -16017,6 +16081,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
+				init="call{this animate [""Terc"",1];}";
 				name="target_02_49";
 			};
 			id=2288;
@@ -16035,6 +16100,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				init="call{this animate [""Terc"",1];}";
 				name="target_02_50";
 			};
 			id=2289;
@@ -16085,6 +16151,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				init="call{this animate [""Terc"",1];}";
 				name="civ_10";
 			};
 			id=2292;
@@ -16102,6 +16169,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				init="call{this animate [""Terc"",1];}";
 				name="target_02_52";
 			};
 			id=2293;
@@ -16119,6 +16187,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				init="call{this animate [""Terc"",1];}";
 				name="target_02_53";
 			};
 			id=2294;
@@ -16137,6 +16206,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				init="call{this animate [""Terc"",1];}";
 				name="target_02_51";
 			};
 			id=2295;
@@ -16153,6 +16223,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
+				init="call{this animate [""Terc"",1];}";
 				name="target_02_55";
 			};
 			id=2296;
@@ -16171,6 +16242,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				init="call{this animate [""Terc"",1];}";
 				name="target_02_54";
 			};
 			id=2297;
@@ -16189,6 +16261,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				init="call{this animate [""Terc"",1];}";
 				name="target_02_56";
 			};
 			id=2298;
@@ -16206,6 +16279,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
+				init="call{this animate [""Terc"",1];}";
 				name="target_02_57";
 			};
 			id=2299;
@@ -16224,6 +16298,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				init="call{this animate [""Terc"",1];}";
 				name="target_02_58";
 			};
 			id=2300;
@@ -16241,6 +16316,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				init="call{this animate [""Terc"",1];}";
 				name="target_02_59";
 			};
 			id=2301;
@@ -16258,6 +16334,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				init="call{this animate [""Terc"",1];}";
 				name="target_02_60";
 			};
 			id=2302;
@@ -16275,6 +16352,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				init="call{this animate [""Terc"",1];}";
 				name="civ_11";
 			};
 			id=2303;
@@ -16292,6 +16370,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				init="call{this animate [""Terc"",1];}";
 				name="target_02_62";
 			};
 			id=2304;
@@ -16310,6 +16389,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				init="call{this animate [""Terc"",1];}";
 				name="target_02_61";
 			};
 			id=2305;
@@ -16326,6 +16406,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
+				init="call{this animate [""Terc"",1];}";
 				name="target_02_63";
 			};
 			id=2306;
@@ -16337,13 +16418,15 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={4595.9873,300.39774,21383.721};
-				angles[]={6.281848,3.8722262,6.2778583};
+				position[]={4595.9868,300.39774,21383.721};
+				angles[]={6.2818413,3.8722224,6.2778621};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
+				init="call{this animate [""Terc"",1];}";
+				name="target_02_44";
 			};
 			id=2307;
 			type="TargetP_Inf3_F";
@@ -16360,6 +16443,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				init="call{this animate [""Terc"",1];}";
 				name="target_02_64";
 			};
 			id=2308;
@@ -16377,6 +16461,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				init="call{this animate [""Terc"",1];}";
 				name="target_02_65";
 			};
 			id=2309;
@@ -16395,6 +16480,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				init="call{this animate [""Terc"",1];}";
 				name="target_02_66";
 			};
 			id=2310;
@@ -16447,7 +16533,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={4563.9614,307.25278,21452.258};
-			angle=4.9748454;
+			angle=4.9748445;
 			class Attributes
 			{
 				condition="call{this}";
@@ -16468,7 +16554,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={4565.8506,307.38739,21443.813};
-			angle=3.743341;
+			angle=3.7433405;
 			class Attributes
 			{
 				condition="call{this}";
@@ -16489,7 +16575,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={4560.1069,303.79813,21440.906};
-			angle=1.3126386;
+			angle=1.3126384;
 			class Attributes
 			{
 				condition="call{this}";
@@ -16510,7 +16596,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={4552.6074,303.35202,21444.145};
-			angle=4.2994728;
+			angle=4.2994719;
 			class Attributes
 			{
 				condition="call{this}";
@@ -16531,7 +16617,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={4550.4346,303.85089,21443.893};
-			angle=4.2994728;
+			angle=4.2994719;
 			class Attributes
 			{
 				condition="call{this}";
@@ -16552,7 +16638,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={4550.8491,302.59311,21434.871};
-			angle=2.7477355;
+			angle=2.747735;
 			class Attributes
 			{
 				condition="call{this}";
@@ -16573,7 +16659,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={4547.1143,302.05045,21427.195};
-			angle=4.1025124;
+			angle=4.1025119;
 			class Attributes
 			{
 				condition="call{this}";
@@ -16594,7 +16680,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={4546.6426,302.02347,21416.684};
-			angle=2.3744099;
+			angle=2.3744094;
 			class Attributes
 			{
 				condition="call{this}";
@@ -16615,7 +16701,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={4547.2637,301.55859,21404.791};
-			angle=4.1025124;
+			angle=4.1025119;
 			class Attributes
 			{
 				condition="call{this}";
@@ -16636,7 +16722,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={4544.6069,302.81024,21402.617};
-			angle=2.8198178;
+			angle=2.8198173;
 			class Attributes
 			{
 				condition="call{this}";
@@ -16677,8 +16763,8 @@ class Mission
 		class Item607
 		{
 			dataType="Trigger";
-			position[]={4563.6294,300.96155,21397.828};
-			angle=2.0494468;
+			position[]={4563.6289,300.96179,21397.828};
+			angle=2.049453;
 			class Attributes
 			{
 				condition="call{this}";
@@ -16693,13 +16779,13 @@ class Mission
 			};
 			id=2324;
 			type="EmptyDetectorArea10x10";
-			atlOffset=1.0557556;
+			atlOffset=1.0559998;
 		};
 		class Item608
 		{
 			dataType="Trigger";
 			position[]={4566.1963,301.02734,21396.295};
-			angle=2.0494468;
+			angle=2.0494466;
 			class Attributes
 			{
 				condition="call{this}";
@@ -16720,7 +16806,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={4576.6445,300.74048,21387.777};
-			angle=2.0494468;
+			angle=2.0494466;
 			class Attributes
 			{
 				condition="call{this}";
@@ -16741,7 +16827,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={4579.4727,300.86072,21385.477};
-			angle=2.0494468;
+			angle=2.0494466;
 			class Attributes
 			{
 				condition="call{this}";
@@ -16762,7 +16848,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={4570.0601,300.7579,21382.49};
-			angle=3.8656189;
+			angle=3.8656185;
 			class Attributes
 			{
 				condition="call{this}";
@@ -16804,7 +16890,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={4595.0049,300.93475,21369.467};
-			angle=3.5589123;
+			angle=3.5589118;
 			class Attributes
 			{
 				condition="call{this}";
@@ -16846,7 +16932,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={4583.6943,301.08994,21362.451};
-			angle=5.4592781;
+			angle=5.4592772;
 			class Attributes
 			{
 				condition="call{this}";
@@ -16909,7 +16995,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={4574.6821,298.72751,21357.387};
-			angle=3.2584188;
+			angle=3.2584183;
 			class Attributes
 			{
 				condition="call{this}";
@@ -16930,7 +17016,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={4586.2651,297.21265,21331.844};
-			angle=1.2066454;
+			angle=1.2066451;
 			class Attributes
 			{
 				condition="call{this}";
@@ -16951,7 +17037,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={4590.0425,300.70331,21329.027};
-			angle=5.8907247;
+			angle=5.8907237;
 			class Attributes
 			{
 				condition="call{this}";
@@ -16971,12 +17057,12 @@ class Mission
 		class Item621
 		{
 			dataType="Trigger";
-			position[]={4590.3618,300.58099,21332.174};
-			angle=4.3278866;
+			position[]={4590.3618,300.58121,21332.174};
+			angle=4.3278923;
 			class Attributes
 			{
 				condition="call{this}";
-				onActivation="call{[target_02_46,civ_07,civ_08] call GRAD_common_fnc_popUp;" \n "}";
+				onActivation="call{[target_02_46,civ_07,civ_08,target_02_74] call GRAD_common_fnc_popUp;" \n "}";
 				sizeA=1;
 				sizeB=0.2;
 				sizeC=1;
@@ -16987,29 +17073,31 @@ class Mission
 			};
 			id=2338;
 			type="EmptyDetectorArea10x10";
-			atlOffset=1.0533447;
+			atlOffset=1.0535583;
 		};
 		class Item622
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={4595.4224,300.32181,21335.473};
-				angles[]={0,1.1510515,6.2824945};
+				position[]={4595.4219,300.32172,21335.473};
+				angles[]={0,1.1510446,6.2824869};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
+				init="call{this animate [""Terc"",1];}";
+				name="target_02_74";
 			};
 			id=2339;
 			type="TargetP_Inf4_F";
+			atlOffset=3.5650024;
 		};
 		class Item623
 		{
 			dataType="Trigger";
-			position[]={4591.7798,297.20892,21332.221};
-			angle=1.2066454;
+			position[]={4590.958,297.22614,21331.947};
+			angle=1.2066451;
 			class Attributes
 			{
 				condition="call{this}";
@@ -17024,13 +17112,13 @@ class Mission
 			};
 			id=2340;
 			type="EmptyDetectorArea10x10";
-			atlOffset=1.0431213;
+			atlOffset=1.0596924;
 		};
 		class Item624
 		{
 			dataType="Trigger";
 			position[]={4615.2563,300.67691,21342.111};
-			angle=0.11450585;
+			angle=0.11450584;
 			class Attributes
 			{
 				condition="call{this}";
@@ -17051,7 +17139,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={4616.6353,303.57635,21346.049};
-			angle=4.013309;
+			angle=4.0133085;
 			class Attributes
 			{
 				condition="call{this}";
@@ -17072,7 +17160,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={4609.748,300.54398,21346.955};
-			angle=1.5439301;
+			angle=1.5439298;
 			class Attributes
 			{
 				condition="call{this}";
@@ -17093,7 +17181,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={4634.0723,301.63394,21373.453};
-			angle=0.56736606;
+			angle=0.56736594;
 			class Attributes
 			{
 				condition="call{this}";
@@ -17114,7 +17202,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={4630.4531,303.38263,21377.549};
-			angle=0.52779955;
+			angle=0.52779943;
 			class Attributes
 			{
 				condition="call{this}";
@@ -17156,7 +17244,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={4622.0703,301.26193,21379.025};
-			angle=5.2166247;
+			angle=5.2166238;
 			class Attributes
 			{
 				condition="call{this}";
@@ -17177,7 +17265,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={4600.1216,301.11252,21384.607};
-			angle=0.66009516;
+			angle=0.66009504;
 			class Attributes
 			{
 				condition="call{this}";
@@ -17197,12 +17285,12 @@ class Mission
 		class Item632
 		{
 			dataType="Trigger";
-			position[]={4599.6855,300.59152,21388.361};
-			angle=1.6566086;
+			position[]={4599.686,300.59201,21388.359};
+			angle=1.6566141;
 			class Attributes
 			{
 				condition="call{this}";
-				onActivation="call{[target_02_58,target_02_59,target_02_60,target_02_61,target_02_62,target_02_63,civ_11] call GRAD_common_fnc_popDown;" \n "[target_02_64] call GRAD_common_fnc_popUp;" \n "}";
+				onActivation="call{[target_02_58,target_02_59,target_02_60,target_02_61,target_02_62,target_02_63,civ_11] call GRAD_common_fnc_popDown;" \n "[target_02_64,target_02_44] call GRAD_common_fnc_popUp;" \n "}";
 				sizeA=1;
 				sizeB=0.2;
 				sizeC=1;
@@ -17213,13 +17301,13 @@ class Mission
 			};
 			id=2349;
 			type="EmptyDetectorArea10x10";
-			atlOffset=1.0615234;
+			atlOffset=1.0620117;
 		};
 		class Item633
 		{
 			dataType="Trigger";
 			position[]={4599.5781,300.80219,21391.932};
-			angle=3.7455406;
+			angle=3.7455401;
 			class Attributes
 			{
 				condition="call{this}";
@@ -17260,8 +17348,8 @@ class Mission
 		class Item635
 		{
 			dataType="Trigger";
-			position[]={4613.1094,297.14087,21431.641};
-			angle=3.5975368;
+			position[]={4613.1094,295.57315,21431.641};
+			angle=3.5975366;
 			class Attributes
 			{
 				condition="call{this}";
@@ -17276,7 +17364,7 @@ class Mission
 			};
 			id=2352;
 			type="EmptyDetectorArea10x10";
-			atlOffset=2.319519;
+			atlOffset=0.75180054;
 		};
 		class Item636
 		{
@@ -17317,7 +17405,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={4556.6372,301.35815,21393.811};
-			angle=4.1025124;
+			angle=4.1025119;
 			class Attributes
 			{
 				condition="call{this}";
@@ -17337,12 +17425,12 @@ class Mission
 		class Item639
 		{
 			dataType="Trigger";
-			position[]={4596.8306,297.233,21332.881};
-			angle=1.2066454;
+			position[]={4596.2671,297.1889,21332.684};
+			angle=1.2066507;
 			class Attributes
 			{
 				condition="call{this}";
-				onActivation="call{[target_02_44,target_02_46,target_02_47,civ_07,civ_08] call GRAD_common_fnc_popDown;" \n "}";
+				onActivation="call{[civ_12,target_02_46,target_02_47,civ_07,civ_08,target_02_74] call GRAD_common_fnc_popDown;" \n "}";
 				sizeA=1;
 				sizeB=0.2;
 				sizeC=1;
@@ -17353,7 +17441,7 @@ class Mission
 			};
 			id=2356;
 			type="EmptyDetectorArea10x10";
-			atlOffset=1.3254089;
+			atlOffset=1.0658264;
 		};
 		class Item640
 		{
@@ -17379,12 +17467,12 @@ class Mission
 		class Item641
 		{
 			dataType="Trigger";
-			position[]={4599.2856,300.75125,21403.428};
-			angle=3.7431142;
+			position[]={4599.2861,300.75168,21403.428};
+			angle=3.74312;
 			class Attributes
 			{
 				condition="call{this}";
-				onActivation="call{[target_02_64,target_02_65,target_02_66] call GRAD_common_fnc_popDown;" \n "}";
+				onActivation="call{[target_02_64,target_02_65,target_02_66, target_02_44] call GRAD_common_fnc_popDown;" \n "}";
 				sizeA=1;
 				sizeB=0.2;
 				sizeC=1;
@@ -17395,7 +17483,7 @@ class Mission
 			};
 			id=2358;
 			type="EmptyDetectorArea10x10";
-			atlOffset=1.4024048;
+			atlOffset=1.402832;
 		};
 		class Item642
 		{
