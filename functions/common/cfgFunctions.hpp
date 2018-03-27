@@ -5,7 +5,6 @@ class GRAD_common {
         class evalStage {};
         class evalTime {};
         class fireFirework {};
-        class hit {};
         class nuke {};
         class playMorse {};
         class popDown {};
@@ -13,5 +12,6 @@ class GRAD_common {
         class restrictedArsenal {};
         class setStartTime {};
         class setupPistolStage {};
+        class spawnNotes {};
     };
 };
