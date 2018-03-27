@@ -1,7 +1,7 @@
 _chiffre = "HCJTGPCEJUQHKCWPFBCGJNGCNNGTWKPGP.YKGFWFCUOCEJUVKUVFKTWGDGTNCUUGP.YGPPFWFCOKVHGTVKIDKUVIGJUVFWYGKVGTBWTOKNKVCGTDCUKUYGUVNKEJXQPUQHKC.BWHCGNNKIGTVGZVWOFKEJBWXGTYKTTGP.UFNHLMUNENUMHUFKYGPNMHUNKHUFH.CRTKNCRTKN!";
-_textSolar = format ["Zähle alle X, runde auf die nächste Zehnerstelle hoch, teile das durch 50. Das Ergebnis ist dein Schlüssel um den Chiffre zu lösen.", _chiffre];
-_textKapelle = format ["Zähle alle X, runde auf die nächste Zehnerstelle hoch, teile das durch 50. Das Ergebnis ist dein Schlüssel um den Chiffre zu lösen.", _chiffre];
-_textFunk = format ["Zähle alle X, runde auf die nächste Zehnerstelle runter, teile das durch 50. Das Ergebnis ist dein Schlüssel um den Chiffre zu lösen.", _chiffre];
+_textSolar = format ["Zähle alle Solarpanele, runde auf die nächste Zehnerstelle hoch, teile das durch 50. Das Ergebnis ist dein Schlüssel um den Cäsarchiffre zu lösen. %1", _chiffre];
+_textKapelle = format ["Zähle alle Holzkreutze im Friedhof, runde auf die nächste Zehnerstelle hoch, teile das durch 50. Das Ergebnis ist dein Schlüssel um den Cäsarchiffre zu lösen. %1", _chiffre];
+_textFunk = format ["Zähle alle Stufen an beiden Funktürmen, runde auf die nächste Zehnerstelle runter, teile das durch 50. Das Ergebnis ist dein Schlüssel um den Cäsarchiffre zu lösen. %1", _chiffre];
 
 //Solar
 [[27042.3,21483.9,1], 225, _textSolar, "elegant"] call GRAD_leaveNotes_fnc_spawnNote;

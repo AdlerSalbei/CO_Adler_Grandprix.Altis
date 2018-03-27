@@ -9,6 +9,6 @@ _finishTime = diag_tickTime;
 _startTime = _x getVariable "grad_prix_time";
 if (isNil "_startTime") exitWith {};
 _time = _finishTime - _startTime;
-_infoTime = [_time,"HH:MM:SS"] call BIS_fnc_timeToString;
+_infoTime = [_time,"HH:MM:SS:MM"] call BIS_fnc_timeToString;
 
 hint format ["Congratulations. You took %1 to get here!", _infoTime];

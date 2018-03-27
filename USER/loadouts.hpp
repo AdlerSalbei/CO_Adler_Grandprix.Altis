@@ -18,7 +18,7 @@
 */
 
 
-loadoutFactionBlu = "BwFleck";
+loadoutFactionBlu = "FUNOP";
 loadoutFactionOpf = "";
 loadoutFactionInd = "";
 
