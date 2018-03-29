@@ -1,5 +1,4 @@
 #define MODULES_DIRECTORY node_modules
-#include "node_modules\grad_randomizeMap\cfgBuildingList.hpp"
 #include "node_modules\grad-leaveNotes\grad_leaveNotes.hpp"
 
 class Header
@@ -58,7 +57,6 @@ class CfgFunctions
 	#include "functions\waverespawn\cfgFunctions.hpp"
 
     #include "node_modules\grad-loadout\cfgFunctions.hpp"
-	#include "node_modules\grad_randomizeMap\cfgFunctions.hpp"
 	#include "node_modules\grad-leaveNotes\cfgFunctions.hpp"
 	#include "node_modules\grad_fireworks\cfgFunctions.hpp"
 

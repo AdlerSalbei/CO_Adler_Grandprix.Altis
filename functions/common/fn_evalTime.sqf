@@ -1,14 +1,17 @@
-if (isServer) then {
-    {
-        [] remoteExecCall ["Grad_common_fnc_evalTime", _x];
-    }forEach (this select 1);
-};
-if !(hasInterface) exitWith {};
-
-_finishTime = diag_tickTime;
-_startTime = _x getVariable "grad_prix_time";
-if (isNil "_startTime") exitWith {};
-_time = _finishTime - _startTime;
-_infoTime = [_time,"HH:MM:SS:MM"] call BIS_fnc_timeToString;
-
-hint format ["Congratulations. You took %1 to get here!", _infoTime];
+{
+    _allTime = time - (_x getVariable ["grad_prix_time",0]);
+    _seconds = floor (_allTime);
+    if (_allTime > 60) then {
+        _count = floor (_allTime / 60);
+        _seconds = floor (_allTime - (60*_count));
+    };
+    _hour = 0;
+    _min = floor (_allTime / 60);
+    if (_min > 60) then {
+        _hour = floor (_min / 60);
+        _min = floor (_min - (60*_hour));
+    };
+    diag_log format ["Player: %1, Time: %1, %2, %3" _x, _hour, _min, _seconds];
+    _text = format ["Congratulations. You took %1h %2m %3s to get here!", _hour, _min, _seconds];
+    _text remoteExec ["hint", _x, false];
+}forEach _this;
