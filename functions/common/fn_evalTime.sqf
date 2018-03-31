@@ -11,7 +11,7 @@
         _hour = floor (_min / 60);
         _min = floor (_min - (60*_hour));
     };
-    diag_log format ["Player: %1, Time: %1, %2, %3" _x, _hour, _min, _seconds];
+    diag_log format ["Player: %1, Time: %1, %2, %3", _x, _hour, _min, _seconds];
     _text = format ["Congratulations. You took %1h %2m %3s to get here!", _hour, _min, _seconds];
     _text remoteExec ["hint", _x, false];
 }forEach _this;
